@@ -1,0 +1,7 @@
+hidden_dim: 5
+input_dim: 512
+learning_rate: 0.001
+max_learning_rate: 0.1
+output_dim: 4
+seed: 45
+total_steps: 100
