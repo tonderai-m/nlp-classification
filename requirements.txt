@@ -1,0 +1,12 @@
+torch
+kaggle
+lightning
+scikit-learn
+numpy
+pandas
+transformers
+huggingface_hub ## incase you want to link with mlflow autotrack makes this much easier 
+torchmetrics
+ipykernel
+jupyter
+nltk

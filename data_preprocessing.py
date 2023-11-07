@@ -4,9 +4,10 @@ from pathlib import Path
 import pandas as pd
 from sklearn.utils import resample
 from random import sample
+import subprocess
 
 def injestDataset():
-
+    
     load_dir = Path("data/Womens Clothing E-Commerce Reviews.csv")
     data = pd.read_csv(load_dir, index_col=None, header=0)
     df = data[['Review Text', 'Rating','Recommended IND']]
